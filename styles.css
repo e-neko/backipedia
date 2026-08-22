@@ -1,0 +1,107 @@
+/* ============================================================
+   Backipedia – Shared Styles (content script + popup)
+   ============================================================ */
+
+/* --- Content script: injected UI -------------------------------- */
+
+.backipedia-container {
+  margin: 0.5rem 0 1rem;
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 0.9rem;
+}
+
+.backipedia-btn {
+  background: #1b1b1b;
+  color: #f8f9fa;
+  border: none;
+  border-radius: 4px;
+  padding: 0.45rem 0.9rem;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: background 0.15s;
+}
+
+.backipedia-btn:hover {
+  background: #333;
+}
+
+.backipedia-panel {
+  margin-top: 0.5rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid #c8ccd1;
+  border-radius: 6px;
+  background: #f8f9fa;
+  max-width: 480px;
+}
+
+.backipedia-panel-title {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+}
+
+.backipedia-panel-body p {
+  margin: 0.25rem 0;
+}
+
+.backipedia-status {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  color: #54595d;
+}
+
+/* --- Popup ------------------------------------------------------- */
+
+.backipedia-popup {
+  width: 280px;
+  padding: 1rem;
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 0.9rem;
+  color: #202122;
+}
+
+.backipedia-popup header h1 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.backipedia-popup .tagline {
+  margin: 0.2rem 0 0.8rem;
+  font-style: italic;
+  color: #54595d;
+  font-size: 0.8rem;
+}
+
+.backipedia-popup .settings,
+.backipedia-popup .toggle {
+  margin-bottom: 0.75rem;
+}
+
+.backipedia-popup label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-weight: 500;
+}
+
+.backipedia-popup select {
+  width: 100%;
+  padding: 0.35rem;
+  border: 1px solid #a2a9b1;
+  border-radius: 4px;
+}
+
+.backipedia-popup .toggle label {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: 400;
+}
+
+.backipedia-popup footer {
+  margin-top: 1rem;
+  text-align: right;
+}
+
+.backipedia-popup .version {
+  font-size: 0.75rem;
+  color: #72777d;
+}
