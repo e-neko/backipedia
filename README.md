@@ -1,5 +1,7 @@
 # Backipedia
 
+<center><picture> <img style="width: 300px" src="images/backipedia_logo_v1.png" alt="Backipedia"></picture></center>
+
 **Backipedia. Manuscripts don't burn.**
 
 A browser extension that lets you view and compare historical versions of Wikipedia articles — preserving the record against revision, erasure, or ideological rewriting.
